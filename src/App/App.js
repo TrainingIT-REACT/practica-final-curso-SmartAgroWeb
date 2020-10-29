@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 
 // Css
-import './App.css';
+import './css/App.css';
+import barra from './templates/barra';
+import sidebar from './templates/sidebar';
+
 
 class App extends Component {
   constructor(props) {
@@ -30,7 +33,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Plantilla de la práctica final!</h1>
+        
+        <h1>Reactify - Tu App de musica</h1>
+        <barra />
+        <sidebar />
         <p>
           Esta plantilla contiene todo lo necesario para comenzar a
           desarrollar la práctica final. Antes de comenzar a desarrollar,
